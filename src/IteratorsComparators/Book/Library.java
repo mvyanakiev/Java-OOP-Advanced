@@ -2,10 +2,10 @@ package IteratorsComparators.Book;
 
 import java.util.Iterator;
 
-public class Library<Book> implements Iterable<Book>{
+public class Library<Book> implements Iterable<Book> {
     private Book[] books;
 
-    public Library(Book ...books){
+    public Library(Book... books) {
         this.books = books;
     }
 
@@ -14,23 +14,20 @@ public class Library<Book> implements Iterable<Book>{
         return new LibraryIterator();
     }
 
-    private final class LibraryIterator implements Iterator<Book>{
+    private final class LibraryIterator implements Iterator<Book> {
         private int counter = 0;
 
         @Override
-        public boolean hasNext(){
-            return books.length - 1 > this.counter;
+        public boolean hasNext() {
+            if (this.counter < books.length) {
+                return true;
+            }
+            return false;
         }
 
         @Override
-        public Book next(){
-            if (hasNext()) {
+        public Book next() {
             return books[counter++];
-            }
-            return books[counter]; //??
         }
     }
-
-
-
 }

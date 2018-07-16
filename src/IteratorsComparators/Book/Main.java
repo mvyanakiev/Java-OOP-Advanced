@@ -15,7 +15,6 @@ public class Main {
 //        books.add(bookThree);
 
 
-
 //        for (Book book : books) {
 //            System.out.println(book.toString());
 //        }
@@ -23,7 +22,8 @@ public class Main {
 
         Library library = new Library<>(bookOne, bookTwo, bookThree);
 
-
+        //fixme
+        String fuckme = "";
 
         for (Book book : library) {
             System.out.println(book.getTitle());
