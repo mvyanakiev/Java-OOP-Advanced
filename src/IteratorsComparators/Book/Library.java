@@ -2,19 +2,19 @@ package IteratorsComparators.Book;
 
 import java.util.Iterator;
 
-public class Library<Book> implements Iterable<Book> {
-    private Book[] books;
+public class Library<T> implements Iterable<T> {
+    private T[] books;
 
-    public Library(Book... books) {
+    public Library(T ... books) {
         this.books = books;
     }
 
     @Override
-    public Iterator<Book> iterator() {
+    public Iterator<T> iterator() {
         return new LibraryIterator();
     }
 
-    private final class LibraryIterator implements Iterator<Book> {
+    private final class LibraryIterator implements Iterator<T> {
         private int counter = 0;
 
         @Override
@@ -26,7 +26,7 @@ public class Library<Book> implements Iterable<Book> {
         }
 
         @Override
-        public Book next() {
+        public T next() {
             return books[counter++];
         }
     }
