@@ -14,6 +14,9 @@ public class Library<T> implements Iterable<T> {
         return new LibraryIterator();
     }
 
+
+
+
     private final class LibraryIterator implements Iterator<T> {
         private int counter = 0;
 

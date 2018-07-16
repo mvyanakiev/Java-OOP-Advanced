@@ -37,6 +37,10 @@ public class Main {
                 case "Print":
                     System.out.println(li.Print());
                     break;
+
+                case "PrintAll":
+                    li.PrintAll();
+                    break;
             }
 
 

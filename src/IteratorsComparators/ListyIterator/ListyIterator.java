@@ -3,7 +3,7 @@ package IteratorsComparators.ListyIterator;
 import java.util.Iterator;
 import java.util.List;
 
-public class ListyIterator<T> {
+public class ListyIterator<T> implements Iterable<T> {
     private List<T> myList;
     private int cursor;
 
@@ -24,7 +24,6 @@ public class ListyIterator<T> {
         return false;
     }
 
-
     public String Print() {
         if (!this.myList.isEmpty()) {
             return String.valueOf(this.myList.get(cursor));
@@ -32,4 +31,43 @@ public class ListyIterator<T> {
             return "Invalid Operation!";
         }
     }
+
+    public void PrintAll(){
+        StringBuilder sb = new StringBuilder();
+
+        for (T element : myList) {
+            sb.append(element).append(" ");
+        }
+        System.out.println(sb.toString());
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new Listy();
+    }
+
+
+
+    private final class Listy implements Iterator<T> {
+        private int counter = 0;
+
+        @Override
+        public boolean hasNext() {
+            if (this.counter < myList.size()) {
+                return true;
+            }
+            return false;
+        }
+
+        @Override
+        public T next() {
+            return myList.get(counter++);
+        }
+    }
+
+
+
+
+
+
 }
