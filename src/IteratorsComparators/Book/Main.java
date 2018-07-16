@@ -15,14 +15,12 @@ public class Main {
 //        books.add(bookThree);
 
 
-
 //        for (Book book : books) {
 //            System.out.println(book.toString());
 //        }
 
 
-        Library library = new Library<>(bookOne, bookTwo, bookThree);
-
+        Library<Book> library = new Library<>(bookOne, bookTwo, bookThree);
 
 
         for (Book book : library) {

@@ -2,35 +2,35 @@ package IteratorsComparators.Book;
 
 import java.util.Iterator;
 
-public class Library<Book> implements Iterable<Book>{
-    private Book[] books;
+public class Library<T> implements Iterable<T> {
+    private T[] books;
 
-    public Library(Book ...books){
+    public Library(T ... books) {
         this.books = books;
     }
 
     @Override
-    public Iterator<Book> iterator() {
+    public Iterator<T> iterator() {
         return new LibraryIterator();
     }
 
-    private final class LibraryIterator implements Iterator<Book>{
+
+
+
+    private final class LibraryIterator implements Iterator<T> {
         private int counter = 0;
 
         @Override
-        public boolean hasNext(){
-            return books.length - 1 > this.counter;
+        public boolean hasNext() {
+            if (this.counter < books.length) {
+                return true;
+            }
+            return false;
         }
 
         @Override
-        public Book next(){
-            if (hasNext()) {
+        public T next() {
             return books[counter++];
-            }
-            return books[counter]; //??
         }
     }
-
-
-
 }
