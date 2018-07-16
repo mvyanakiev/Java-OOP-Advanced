@@ -22,12 +22,5 @@ public class Main {
 
 
 
-
-
-
-
-
-
-
     }
 }
