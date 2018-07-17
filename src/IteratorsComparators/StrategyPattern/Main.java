@@ -26,13 +26,7 @@ public class Main {
         people.stream().sorted(Person::ageCompare).forEach(byAge::add);
         people.stream().sorted(Person::nameCompare).forEach(byName::add);
 
-        for (Person person : byName) {
-            System.out.println(person);
-        }
-
-        for (Person person : byAge) {
-            System.out.println(person);
-        }
-
+        byName.forEach(System.out::println);
+        byAge.forEach(System.out::println);
     }
 }

@@ -17,15 +17,9 @@ public class Person implements Comparable<Person> {
 
         if (this.name.length() - other.name.length() != 0) {
             return other.name.length() - this.name.length();
-        } else {
-            if (this.name.toLowerCase().charAt(0) - other.name.toLowerCase().charAt(0) != 0) {
-                return other.name.toLowerCase().charAt(0) - this.name.toLowerCase().charAt(0);
-            } else {
-                return 0;
-            }
         }
+        return other.name.toLowerCase().charAt(0) - this.name.toLowerCase().charAt(0);
     }
-
 
 
     @Override
@@ -34,8 +28,8 @@ public class Person implements Comparable<Person> {
     }
 
     @Override
-    public int compareTo(Person o) {
-        if (this.name.equals(o.name) && this.age == o.age) {
+    public int compareTo(Person other) {
+        if (this.name.equals(other.name) && this.age == other.age) {
             return 0;
         }
         return -1;
