@@ -5,11 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         List<Person> people = new ArrayList<>();
+        Set<Person> byAge = new TreeSet<>();
+        Set<Person> byName = new TreeSet<>();
 
         int n = Integer.parseInt(reader.readLine());
 
@@ -19,8 +23,16 @@ public class Main {
             people.add(person);
         }
 
-// todo
+        people.stream().sorted(Person::ageCompare).forEach(byAge::add);
+        people.stream().sorted(Person::nameCompare).forEach(byName::add);
 
+        for (Person person : byName) {
+            System.out.println(person);
+        }
+
+        for (Person person : byAge) {
+            System.out.println(person);
+        }
 
     }
 }
