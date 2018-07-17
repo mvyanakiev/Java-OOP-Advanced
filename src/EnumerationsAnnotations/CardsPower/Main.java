@@ -13,7 +13,10 @@ public class Main {
         String suite = reader.readLine().toUpperCase();
         int powerCard = CardPower.valueOf(card).getCardPower() + SuitPower.valueOf(suite).getSuitPower();
 
-        System.out.printf("Card name: %s of %s; Card power: %d", CardPower.valueOf(card), SuitPower.valueOf(suite), powerCard);
+        System.out.printf("Card name: %s of %s; Card power: %d",
+                CardPower.valueOf(card),
+                SuitPower.valueOf(suite),
+                powerCard);
 
 
     }

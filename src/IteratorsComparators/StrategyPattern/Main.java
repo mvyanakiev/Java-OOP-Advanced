@@ -19,9 +19,7 @@ public class Main {
             people.add(person);
         }
 
-
-
-
+// todo
 
 
     }
