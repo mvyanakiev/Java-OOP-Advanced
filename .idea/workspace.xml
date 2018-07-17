@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633a9218-a874-4936-a4bf-51862ea8070d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,42 +18,7 @@
     <favorites_list name="Java-OOP-Advanced-001" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuitPower.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/SuitPower.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -83,8 +49,8 @@
         <option value="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/CardPower.java" />
         <option value="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/SuitPower.java" />
         <option value="$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Main.java" />
-        <option value="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Main.java" />
         <option value="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Card.java" />
+        <option value="$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Main.java" />
       </list>
     </option>
   </component>
@@ -112,6 +78,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,13 +109,6 @@
               <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-OOP-Advanced-001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EnumerationsAnnotations" type="462c0819:PsiDirectoryNode" />
-              <item name="CardSuit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-OOP-Advanced-001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="IteratorsComparators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -161,8 +122,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,7 +287,8 @@
       <workItem from="1531823488496" duration="835000" />
       <workItem from="1531825260527" duration="73000" />
       <workItem from="1531825350099" duration="15000" />
-      <workItem from="1531825843258" duration="2893000" />
+      <workItem from="1531825843258" duration="2950000" />
+      <workItem from="1531844333650" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1531741986761</created>
@@ -379,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531834778378</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add new">
+      <created>1531834854044</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1531834854044</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12720000" />
+    <option name="totallyTimeSpent" value="14370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,15 +363,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="23" width="1345" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32756132" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49961627" weight="0.32692307" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50038373" side_tool="true" weight="0.32692307" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39871794" />
@@ -412,8 +378,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.2171911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.22026093" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" sideWeight="0.5007215" side_tool="true" weight="0.21312805" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -425,7 +392,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,6 +666,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/SuitPower.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -711,20 +687,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="326">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -733,8 +699,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EnumerationsAnnotations/CardsPower/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="298">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

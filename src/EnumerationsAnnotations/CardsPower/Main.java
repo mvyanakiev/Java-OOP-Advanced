@@ -9,14 +9,21 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        String card = reader.readLine().toUpperCase();
-        String suite = reader.readLine().toUpperCase();
-        int powerCard = CardPower.valueOf(card).getCardPower() + SuitPower.valueOf(suite).getSuitPower();
+        String card1 = reader.readLine().toUpperCase();
+        String suite1 = reader.readLine().toUpperCase();
 
-        System.out.printf("Card name: %s of %s; Card power: %d",
-                CardPower.valueOf(card),
-                SuitPower.valueOf(suite),
-                powerCard);
+        String card2 = reader.readLine().toUpperCase();
+        String suite2 = reader.readLine().toUpperCase();
+
+        Card firstCard = new Card(card1, suite1);
+        Card secondCard = new Card(card2, suite2);
+
+
+        if (firstCard.compareTo(secondCard) > 1) {
+            System.out.println(firstCard);
+        } else {
+            System.out.println(secondCard);
+        }
 
 
     }
