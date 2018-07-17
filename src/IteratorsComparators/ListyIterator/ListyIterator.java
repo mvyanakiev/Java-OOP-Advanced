@@ -35,7 +35,8 @@ public class ListyIterator<T> implements Iterable<T> {
     public void PrintAll(){
         StringBuilder sb = new StringBuilder();
 
-        for (T element : myList) {
+        // override foreach
+        for (T element : this) {
             sb.append(element).append(" ");
         }
         System.out.println(sb.toString());

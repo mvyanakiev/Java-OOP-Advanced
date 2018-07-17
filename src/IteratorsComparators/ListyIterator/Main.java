@@ -43,10 +43,7 @@ public class Main {
                     break;
             }
 
-
             command = reader.readLine();
         }
-
-
     }
 }
