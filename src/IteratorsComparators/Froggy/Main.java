@@ -15,7 +15,7 @@ public class Main {
 
         while (!"END".equals(command)) {
 
-            String[] input = command.split(", ");
+            String[] input = command.split("\\D+");
 
             for (String s : input) {
                 listToAdd.add(Integer.parseInt(s));
@@ -26,10 +26,5 @@ public class Main {
 
         Lake lake = new Lake(listToAdd);
         System.out.println(lake.froggy());
-
-        //fixme
-        // input-a може да е със или без запетаи
-
-
     }
 }

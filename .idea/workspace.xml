@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="633a9218-a874-4936-a4bf-51862ea8070d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IteratorsComparators/Froggy/Lake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IteratorsComparators/Froggy/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IteratorsComparators/Froggy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IteratorsComparators/Froggy/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,25 +17,21 @@
     <favorites_list name="Java-OOP-Advanced-001" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Lake.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Lake.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Lake.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+            <state relative-caret-position="182">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,6 +102,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,8 +140,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +275,7 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
@@ -290,7 +285,6 @@
       <list>
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
       </list>
@@ -315,7 +309,8 @@
       <workItem from="1531825843258" duration="2950000" />
       <workItem from="1531844333650" duration="4809000" />
       <workItem from="1531849725666" duration="1145000" />
-      <workItem from="1532001410640" duration="6962000" />
+      <workItem from="1532001410640" duration="6996000" />
+      <workItem from="1532016355153" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1531741986761</created>
@@ -401,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532008141564</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add new now">
+      <created>1532010241130</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1532010241130</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25693000" />
+    <option name="totallyTimeSpent" value="26111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,19 +431,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50038373" side_tool="true" weight="0.32692307" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32820514" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39871794" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32820514" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.21105142" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.21412125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5007215" side_tool="true" weight="0.21312805" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5007215" side_tool="true" weight="0.21312805" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39871794" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007215" side_tool="true" weight="0.21312805" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -490,10 +492,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Lake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -708,16 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,13 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47">
           <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,24 +775,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Lake.java">
+    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="182">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Froggy/Lake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
