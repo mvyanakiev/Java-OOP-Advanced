@@ -31,12 +31,13 @@ public class Main {
 
         while (player2.getSize() < MAX_NUMBER_OF_CARDS) {
             String[] card = reader.readLine().split("\\s+");
+            String nameOfCard = card[0] + " " + card[2];
             Card cardToAdd = null;
 
             try {
                 cardToAdd = new Card(card[0], card[2]);
 
-                if (!deck.containsKey(card[0] + " " + card[2])) {
+                if (!deck.containsKey(nameOfCard)) {
                     System.out.println("Card is not in the deck.");
                 }
 
@@ -48,8 +49,8 @@ public class Main {
 
 
 
-           if (deck.containsKey(card[0] + " " + card[2]) ){
-                deck.remove(card[0] + " " + card[2]);
+           if (deck.containsKey(nameOfCard) ){
+                deck.remove(nameOfCard);
 
                 if (player1.getSize() < MAX_NUMBER_OF_CARDS) {
                     player1.addCard(cardToAdd);
@@ -60,6 +61,7 @@ public class Main {
 
 
         }
+
 
 
         if (player1.maxPower().getPower() > player2.maxPower().getPower()) {

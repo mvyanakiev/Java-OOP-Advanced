@@ -38,6 +38,9 @@ public class Player {
 
     @Override
     public String toString() {
-        return this.name + " wins with " + maxPower().getCard() + " of " + maxPower().getSuit() + ".";
+        Card max = maxPower();
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.name).append(" wins with ").append(max.getCard()).append(" of ").append(max.getSuit()).append(".");
+        return sb.toString();
     }
 }
