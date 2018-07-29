@@ -4,9 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/Reflection/BlackBoxInteger/Main.java" line="21" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="633a9218-a874-4936-a4bf-51862ea8070d" name="Default" comment="">
+    <list default="true" id="633a9218-a874-4936-a4bf-51862ea8070d" name="Default" comment="add new now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/BlackBoxInteger/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflection/BlackBoxInteger/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +20,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Reflection/BlackBoxInteger/Main.java">
+      <file leaf-file-name="Engine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BarracksWars/core/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="38" column="100" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
+            <state relative-caret-position="236">
+              <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitFactoryImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BarracksWars/core/factories/UnitFactoryImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BarracksWars/data/UnitRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnitFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BarracksWars/contracts/UnitFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BarracksWars/contracts/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BarracksWars/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,6 +139,13 @@
         <option value="$PROJECT_DIR$/src/Reflection/HarvestingFields/Main.java" />
         <option value="$PROJECT_DIR$/src/Reflection/BlackBoxInteger/com/BlackBoxInt.java" />
         <option value="$PROJECT_DIR$/src/Reflection/BlackBoxInteger/Main.java" />
+        <option value="$PROJECT_DIR$/src/pr0304Barracks/data/UnitRepository.java" />
+        <option value="$PROJECT_DIR$/src/pr0304Barracks/core/Engine.java" />
+        <option value="$PROJECT_DIR$/src/pr0304Barracks/core/factories/UnitFactoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/pr0304Barracks/contracts/UnitFactory.java" />
+        <option value="$PROJECT_DIR$/src/pr0304Barracks/contracts/Repository.java" />
+        <option value="$PROJECT_DIR$/src/BarracksWars/Main.java" />
+        <option value="$PROJECT_DIR$/src/BarracksWars/data/UnitRepository.java" />
       </list>
     </option>
   </component>
@@ -101,7 +161,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="12" />
     <option name="y" value="23" />
-    <option name="width" value="1345" />
+    <option name="width" value="1407" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -112,8 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,28 +189,21 @@
               <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-OOP-Advanced-001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
+              <item name="BarracksWars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-OOP-Advanced-001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="BlackBoxInteger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-OOP-Advanced-001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflection" type="462c0819:PsiDirectoryNode" />
-              <item name="BlackBoxInteger" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="BarracksWars" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EnumerationsAnnotations.DeckCards.Main" />
       <module name="Java-OOP-Advanced" />
@@ -193,17 +245,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="EnumerationsAnnotations.DeckCards.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumerationsAnnotations.CardSuit.Main" />
-      <module name="Java-OOP-Advanced" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EnumerationsAnnotations.CardSuit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,6 +278,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="EnumerationsAnnotations.CardGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reflection.BarracksWars.Main" />
+      <module name="Java-OOP-Advanced" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reflection.BarracksWars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,19 +335,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +378,8 @@
       <workItem from="1532351624092" duration="2477000" />
       <workItem from="1532433571553" duration="44000" />
       <workItem from="1532604885697" duration="787000" />
-      <workItem from="1532699733345" duration="2344000" />
+      <workItem from="1532699733345" duration="2820000" />
+      <workItem from="1532857706751" duration="1946000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1531741986761</created>
@@ -454,11 +507,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532433590391</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add new now">
+      <created>1532707494757</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532707494757</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48731000" />
+    <option name="totallyTimeSpent" value="51153000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -470,36 +530,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1345" height="873" extended-state="0" />
+    <frame x="12" y="23" width="1407" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49961627" weight="0.32692307" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32820514" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49961627" weight="0.32603094" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3273196" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50038373" side_tool="true" weight="0.32692307" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35438144" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32820514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35438144" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.23561013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.22783883" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info id="Structure" order="1" sideWeight="0.5007215" side_tool="true" weight="0.21312805" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39871794" />
       <window_info id="Favorites" order="2" sideWeight="0.5007215" side_tool="true" weight="0.21312805" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39871794" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,48 +607,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Book/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Book/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Book/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Generics/Tuple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/Book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1">
@@ -882,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/HarvestingFields/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reflection/HarvestingFields/RichSoilLand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -896,10 +908,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection/HarvestingFields/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reflection/BlackBoxInteger/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="38" column="100" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
+        <state relative-caret-position="639">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BarracksWars/core/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="67" column="48" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BarracksWars/contracts/UnitFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BarracksWars/contracts/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BarracksWars/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BarracksWars/core/factories/UnitFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BarracksWars/data/UnitRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
