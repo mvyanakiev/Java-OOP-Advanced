@@ -21,8 +21,8 @@ public class Engine implements Runnable {
 
 	@Override
 	public void run() {
-		BufferedReader reader = new BufferedReader(
-				new InputStreamReader(System.in));
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
 		while (true) {
 			try {
 				String input = reader.readLine();
@@ -40,6 +40,10 @@ public class Engine implements Runnable {
 			}
 		}
 	}
+
+
+
+
 
 	// TODO: refactor for problem 4
 	private String interpredCommand(String[] data, String commandName)  {
@@ -69,6 +73,7 @@ public class Engine implements Runnable {
 		String unitType = data[1];
 		Unit unitToAdd = this.unitFactory.createUnit(unitType);
 		this.repository.addUnit(unitToAdd);
+
 		String output = unitType + " added!";
 		return output;
 	}

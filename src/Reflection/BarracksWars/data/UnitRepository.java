@@ -15,7 +15,7 @@ public class UnitRepository implements Repository {
 	}
 
 	public void addUnit(Unit unit) {
-		String unitType = unit.getClass().getSimpleName();
+		String unitType = unit.getClass().getSimpleName(); //взима имаето на юнит-а през класа
 		if (!this.amountOfUnits.containsKey(unitType)) {
 			this.amountOfUnits.put(unitType, 0);
 		}
@@ -27,8 +27,9 @@ public class UnitRepository implements Repository {
 	public String getStatistics() {
 		StringBuilder statBuilder = new StringBuilder();
 		for (Map.Entry<String, Integer> entry : amountOfUnits.entrySet()) {
-			String formatedEntry =
-					String.format("%s -> %d%n", entry.getKey(), entry.getValue());
+			String formatedEntry = String.format("%s -> %d%n",
+					entry.getKey(),
+					entry.getValue());
 			statBuilder.append(formatedEntry);
 		}
 		statBuilder.setLength(
