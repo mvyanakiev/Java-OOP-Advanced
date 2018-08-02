@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="633a9218-a874-4936-a4bf-51862ea8070d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Gunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Horseman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/BuyStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/SellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CommandPattern/Stock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reflection/BarracksWars/core/factories/UnitFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reflection/BarracksWars/core/factories/UnitFactoryImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,54 +27,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/Main.java">
+      <file leaf-file-name="Order.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnitFactoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/core/factories/UnitFactoryImpl.java">
+      <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/Stock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="165">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#212#213#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Horseman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Horseman.java">
+      <file leaf-file-name="BuyStock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/BuyStock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SellStock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/SellStock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
               <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Gunner.java">
+      <file leaf-file-name="Broker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/Broker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Swordsman.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Swordsman.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CommandPattern/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -97,12 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IteratorsComparators/Book/Book.java" />
-        <option value="$PROJECT_DIR$/src/IteratorsComparators/Book/Main.java" />
-        <option value="$PROJECT_DIR$/src/IteratorsComparators/Book/Library.java" />
-        <option value="$PROJECT_DIR$/src/IteratorsComparators/ListyIterator/Main.java" />
-        <option value="$PROJECT_DIR$/src/IteratorsComparators/ComparingObjects/Main.java" />
-        <option value="$PROJECT_DIR$/src/IteratorsComparators/ComparingObjects/Person.java" />
         <option value="$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Person1.java" />
         <option value="$PROJECT_DIR$/src/EnumerationsAnnotations/CardSuit/CardSuit.java" />
         <option value="$PROJECT_DIR$/src/EnumerationsAnnotations/CardSuit/CardRank.java" />
@@ -147,6 +168,13 @@
         <option value="$PROJECT_DIR$/src/Reflection/BarracksWars/core/factories/UnitFactoryImpl.java" />
         <option value="$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Horseman.java" />
         <option value="$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Gunner.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/Order.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/BuyStock.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/SellStock.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/Broker.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/CommandPatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/Stock.java" />
+        <option value="$PROJECT_DIR$/src/CommandPattern/Main.java" />
       </list>
     </option>
   </component>
@@ -160,10 +188,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
+    <option name="x" value="17" />
     <option name="y" value="23" />
     <option name="width" value="1407" />
-    <option name="height" value="792" />
+    <option name="height" value="856" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,6 +215,12 @@
               <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-OOP-Advanced-001" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-OOP-Advanced-001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CommandPattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-OOP-Advanced-001" type="b2602c69:ProjectViewProjectNode" />
@@ -239,6 +273,7 @@
       <recent name="Reflection" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CommandPattern" />
       <recent name="Reflection.BarracksWars.models.units" />
       <recent name="DesignPattern" />
       <recent name="EnumerationsAnnotations.CardGame" />
@@ -260,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reflection.BarracksWars.Main" />
       <module name="Java-OOP-Advanced" />
@@ -306,12 +341,12 @@
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumerationsAnnotations.CardGame.Main" />
+      <option name="MAIN_CLASS_NAME" value="CommandPattern.Main" />
       <module name="Java-OOP-Advanced" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EnumerationsAnnotations.CardGame.*" />
+          <option name="PATTERN" value="CommandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,19 +404,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (4)" />
       <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +449,7 @@
       <workItem from="1532604885697" duration="787000" />
       <workItem from="1532699733345" duration="2820000" />
       <workItem from="1532857706751" duration="4644000" />
-      <workItem from="1533212291106" duration="7278000" />
+      <workItem from="1533212291106" duration="8894000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1531741986761</created>
@@ -563,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533221988270</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add new now">
+      <created>1533225041562</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1533225041562</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61129000" />
+    <option name="totallyTimeSpent" value="62745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,7 +621,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1407" height="792" extended-state="0" />
+    <frame x="17" y="23" width="1407" height="856" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49961627" weight="0.32603094" />
@@ -590,12 +633,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50038373" side_tool="true" weight="0.32692307" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39568347" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36231884" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32820514" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.23076923" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992785" visible="true" weight="0.23076923" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32860824" />
       <window_info id="Structure" order="1" sideWeight="0.5007215" side_tool="true" weight="0.21312805" />
@@ -655,48 +698,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/ComparingObjects/PersonCO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/ComparingObjects/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="44" selection-start-line="11" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StrategyPattern/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StackIterator/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/StackIterator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IteratorsComparators/ListyIterator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1004,6 +1005,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/core/factories/UnitFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
@@ -1011,20 +1019,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Swordsman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Gunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1039,10 +1033,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Gunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="120">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Reflection/BarracksWars/models/units/Swordsman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/SellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/Broker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/BuyStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandPattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
