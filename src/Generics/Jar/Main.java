@@ -11,6 +11,15 @@ public class Main {
 
         System.out.println(jar);
 
+        Jar<Integer> intJar = new Jar<>();
+
+        intJar.add(12);
+        intJar.add(34);
+        intJar.add(2345);
+
+        System.out.println(intJar);
+
+
 
     }
 }
