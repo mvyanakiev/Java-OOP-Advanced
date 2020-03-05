@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="633a9218-a874-4936-a4bf-51862ea8070d" name="Default" comment="add new now">
+    <list default="true" id="633a9218-a874-4936-a4bf-51862ea8070d" name="Default" comment="Jar fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Generics/Jar/Jar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Jar/Jar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Generics/Jar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Jar/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,7 @@
       <recent name="$PROJECT_DIR$/src/EnumerationsAnnotations/CardGame" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Reflection.BarracksWars.Main" />
       <module name="Java-OOP-Advanced" />
@@ -138,13 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.BlackBoxInteger.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Generics.Tuple.Main" />
       <module name="Java-OOP-Advanced" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.BlackBoxInteger.*" />
+          <option name="PATTERN" value="Generics.Tuple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +199,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (5)" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533376574349</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Jar fixes">
+      <created>1583180391664</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583180391665</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -474,25 +480,38 @@
     <MESSAGE value="add" />
     <MESSAGE value="add new" />
     <MESSAGE value="add new now" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new now" />
+    <MESSAGE value="Jar fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jar fixes" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="194" key="GridCell.Tab.0.bottom" timestamp="1583177396402">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="300" y="64" key="CommitChangelistDialog2" timestamp="1583180391355">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="300" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1583180391355" />
+    <state width="1393" height="194" key="GridCell.Tab.0.bottom" timestamp="1583426132178">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="194" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583177396402" />
-    <state width="1398" height="194" key="GridCell.Tab.0.center" timestamp="1583177396401">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1393" height="194" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1583426132178" />
+    <state width="1393" height="194" key="GridCell.Tab.0.center" timestamp="1583426132177">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="194" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583177396401" />
-    <state width="1398" height="194" key="GridCell.Tab.0.left" timestamp="1583177396400">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1393" height="194" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1583426132177" />
+    <state width="1393" height="194" key="GridCell.Tab.0.left" timestamp="1583426132175">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="194" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583177396400" />
-    <state width="1398" height="194" key="GridCell.Tab.0.right" timestamp="1583177396401">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1393" height="194" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1583426132175" />
+    <state width="1393" height="194" key="GridCell.Tab.0.right" timestamp="1583426132177">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1398" height="194" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583177396401" />
+    <state width="1393" height="194" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1583426132177" />
+    <state x="322" y="201" key="Vcs.Push.Dialog.v2" timestamp="1583180394459">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="322" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1583180394459" />
     <state x="506" y="385" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583180362156">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
